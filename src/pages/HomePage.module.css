@@ -1,0 +1,13 @@
+.mainroot {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100vw; /* Ensure full width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  gap: 5rem;
+}

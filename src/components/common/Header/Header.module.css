@@ -1,0 +1,55 @@
+.navBar {
+  margin: 0;
+  padding: 1rem 5rem;
+  padding-right: 8.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.headerLogo {
+  height: 2.5rem;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "GoogleSans";
+  color: rgba(33, 40, 50, 1);
+}
+
+.signUpButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(33, 40, 50, 1);
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.signUpButton:hover {
+  background-color: rgba(33, 40, 50, 0.1);
+}
+
+.languageSelector {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bookingSection {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 5rem;
+  gap: 0.5rem;
+  margin: 0rem;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 5rem;
+  position: relative;
+}
+
+.subtitle {
+  font-family: "poppinsMedium";
+  font-weight: 600;
+  color: rgba(94, 98, 130, 1);
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "volkhovBold";
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: rgba(20, 24, 62, 1);
+  font-size: 50px;
+}
+
+.pointSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pointSection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.pointContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.pointTitle {
+  font-family: "poppinsBold";
+  margin-bottom: 0.25rem;
+  color: rgba(94, 98, 130, 1);
+  font-weight: 700;
+}
+
+.pointDescription {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+  color: rgba(94, 98, 130, 1);
+  max-width: 20rem;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.bookingCard {
+  border-radius: 20px 20px 20px 20px;
+  position: absolute;
+  display: inline-block;
+  align-items: start;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 1);
+  max-height: auto;
+  max-width: 25rem;
+  box-shadow: 3.5px 3.5px 3.5px 3.5px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+  z-index: 10;
+}
+
+.shadowImage {
+  position: relative;
+}
+.cardDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 100%;
+  width: 100%;
+  gap: 0.7rem;
+}
+
+.cardTitle {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+}
+
+.cardDateName {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+}
+
+.peopleCount {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+}
+.likeSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.peopleIcon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.NotifyTab {
+  position: absolute;
+  max-width: 15rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem;
+  border-radius: 15px 15px 15px 15px;
+  gap: 1rem;
+  margin-top: 10.2rem;
+  margin-left: 20rem;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.status {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+  color: rgba(132, 130, 154, 1);
+  font-size: 0.85rem;
+}
+
+.reachingPlace {
+  font-family: "poppinsRegular";
+  color: rgba(8, 8, 9, 1);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.progressBar {
+  color: rgba(8, 8, 9, 1);
+  font-size: small;
+  gap: 0.5rem;
+  align-items: start;
+  justify-content: start;
+}
+.percentage {
+  font-family: "poppinsRegular";
+  font-weight: 400;
+  color: blueviolet;
+  margin-bottom: 1rem;
+}
+
+.bar {
+  margin-top: 0.35rem;
+  min-width: 8.5rem;
+  max-width: 10rem;
+  max-height: 0.25rem;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.barIndicator {
+  max-width: 5rem;
+  max-height: 0.25rem;
+  width: 100%;
+  background-color: rgba(138, 121, 223, 1);
+  color: transparent;
+}

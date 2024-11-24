@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "GoogleSans";
+  src: url("../public/fonts/google-sans/ProductSans-Regular.ttf") format("ttf"),
+    url("../public/fonts/google-sans/ProductSans-Medium.ttf") format("ttf"),
+    url("../public/fonts/google-sans/ProductSans-Bold.ttf") format("ttf"),
+    url("../public/fonts/Poppins/Poppins-Regular.ttf") format("ttf"),
+    url("../public/fonts/Poppins/Poppins-Medium.ttf") format("ttf"),
+    url("../public/fonts/Poppins/Poppins-Bold.ttf") format("ttf"),
+    url("../public/fonts/Volkhov/Volkhov-Regular.ttf") format("ttf"),
+    url("../public/fonts/Volkhov/Volkhov-Bold.ttf") format("ttf"),
+    url("../public/fonts/Open_Sans/static/OpenSans-Regular.ttf") format("ttf"),
+    url("../public/fonts/Open_Sans/static/OpenSans-Medium.ttf") format("ttf"),
+    url("../public/fonts/Open_Sans/static/OpenSans-Bold.ttf") format("ttf"),
+    url("../public/fonts/Montserrat/static/Montserrat-Regular.ttf")
+      format("ttf"),
+    url("../public/fonts/Montserrat/static/Montserrat-Medium.ttf") format("ttf"),
+    url("../public/fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
+}
+body {
+  margin: 0;
+  font-family: "GoogleSans", "Poppins", "Volkhov", "OpenSans",
+    "Montserrat" -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.googleSansRegular {
+  font-family: "GoogleSans", sans-serif;
+  font-weight: normal;
+}
+
+.googleSansMedium {
+  font-family: "GoogleSans", sans-serif;
+  font-weight: 500; /* Medium weight */
+}
+
+.googleSansBold {
+  font-family: "GoogleSans", sans-serif;
+  font-weight: bold;
+}
+
+/* Font weight classes for Poppins */
+.poppinsRegular {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.poppinsMedium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; /* Medium weight */
+}
+
+.poppinsBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.volkhovRegular {
+  font-family: "Volkhov", sans-serif;
+  font-weight: normal;
+}
+
+.volkhovBold {
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+}
+
+.opensansRegular {
+  font-family: "OpenSans", sans-serif;
+  font-weight: normal;
+}
+
+.opensansMedium {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 500; /* Medium weight */
+}
+
+.opensansBold {
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+}
+
+.montSerratRegular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+.montSerratMedium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /* Medium weight */
+}
+
+.montSerratBold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}

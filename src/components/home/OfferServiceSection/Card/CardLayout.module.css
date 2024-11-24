@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 20px;
+  width: 13rem;
+  height: 15rem;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.card h3 {
+  font-family: "opensansMedium";
+  font-weight: 600;
+  color: rgba(30, 29, 76, 1);
+}
+
+.card p {
+  max-width: 90%;
+  color: rgba(94, 98, 130, 1);
+  text-align: center;
+  font-family: "poppinsRegular";
+  font-weight: 400;
+}
